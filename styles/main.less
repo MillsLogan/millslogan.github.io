@@ -105,14 +105,60 @@ p{
     border: 1px solid white;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 991px){
     .container-cover{
         background-size: 250px 250px;
         background-position: top;
     }
 
+    .navbar-nav{
+        .center();
+    }
+
     .container-cover-text{
         font-size: .5em;
         .center();
+        margin-top: 10%;
+    }
+
+    .card{
+        margin: 10px 0;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: column;
+        background: @theme-color-light;
+        height: fit-content!important;
+    }
+}
+
+
+@media screen and (max-height: 730px){
+    .container-cover{
+        background-size: 40%;
+        background-position: top;
+    }
+
+    .navbar-nav{
+        .center();
+        margin: 0;
+    }
+
+    .container-cover-text{
+        font-size: .5em;
+        .center();
+        margin-top: 10%;
+    }
+
+    .card{
+        margin: 10px 0;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: column;
+        background: @theme-color-light;
+        height: fit-content!important;
     }
 }
