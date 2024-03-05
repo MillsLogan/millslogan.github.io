@@ -1,0 +1,118 @@
+@theme-color: #183046;
+@theme-color-light: #203f5b;
+@uva-color: #ee9335;
+@carousel-color: #720068;
+
+html, body{
+    background: black;
+    height: 100%;
+    padding-top: 20px;
+    margin: 20px 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 500px;
+}
+
+.bg-carousel{
+    rect{
+        background-color: transparent;
+    }
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-theme{
+    background-color: @theme-color;
+    color: white;
+    *{
+        color: white;
+    }
+}
+
+.bg-theme-light{
+    color: white;
+    background-color: @theme-color-light;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.right-justify{
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    text-align: right;
+}
+
+.left-justify{
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: left;
+}
+
+.title{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;    
+}
+
+.title-text{
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+
+.uva{
+    color: @uva-color;
+}
+
+.container-cover-text{
+    position: relative;
+    top: 25%;
+}
+
+.container-cover{
+    background-color: @theme-color;
+    background-image: url('../images/avatar_no_background.PNG');
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-size: 50%;
+    height: 90%;
+}
+
+p{
+    font-size: 1.25em;
+    font-weight: lighter;
+}
+
+.card{
+    background-color: @theme-color;
+    color: white;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 990px){
+    .container-cover{
+        background-size: 250px 250px;
+        background-position: top;
+    }
+
+    .container-cover-text{
+        font-size: .5em;
+        .center();
+    }
+}
