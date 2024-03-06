@@ -86,11 +86,6 @@ header{
 
 .container-cover{
     background-color: @theme-color;
-    background-image: url('../images/avatar_no_background.PNG');
-    background-repeat: no-repeat;
-    background-position: 85%;
-    background-size: 50%;
-    height: 90%;
 }
 
 p{
@@ -107,11 +102,6 @@ p{
 
 
 @media screen and (max-height: 790px) and (max-width: 991px){
-    .container-cover{
-        background-size: 40%;
-        background-position: top;
-    }
-
     .navbar-nav{
         .center();
         margin: 0;
@@ -124,6 +114,10 @@ p{
         display: flex;
         flex-direction: column;
         height: fit-content!important;
+    }
+
+    .title-row{
+        flex-direction: column-reverse;
     }
 
     .card{
