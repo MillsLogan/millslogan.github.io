@@ -1,0 +1,157 @@
+@import "main.less";
+
+
+.content-container{
+    background-color: #c27400;
+    padding: 0 0 5px 0;
+    margin: 2px 0 5px 0;
+    border-radius: 2em;
+    border: white 2px solid;
+}
+
+.list-group{
+    .list-group-item{
+        background: @theme-color;
+        color: white;
+        border: black 1px solid;
+        margin-top: 5px;
+        border-radius: 2em;
+
+        &.active{
+            background: @theme-color-light;
+            color: white;
+            border: white 1px solid;
+            border-radius: 2em;
+            margin-top: 5px;
+        }
+    }
+}
+
+
+.tab-pane{
+    background: @theme-color-light;
+    border-radius: 2em;
+    border: black 2px solid;
+}
+
+.badge{
+    border: black 1px solid;
+    &.java{
+        background-color: #FFA518;
+        color: black;
+    }
+
+    &.python{
+        background-color: #FFE873;
+        color: black;
+    }
+
+    &.math{
+        background: green;
+        color: white;
+    }
+    
+    &.c{
+        background: teal;
+        color: white;
+    }
+
+    &.bash{
+        background: lightgray;
+        color: black;
+    }
+
+    &.assembly{
+        background: darkgray;
+        color: black;
+    }
+
+    &.lean{
+        background: black;
+        color: white;
+    }
+
+    &.git{
+        background: #4078c0;
+        color: white;
+    }
+
+    &.agile{
+        background: #ff4d4d;
+        color: white;
+    }
+
+    &.latex{
+        background: #008080;
+        color: white;
+    }
+
+    &.jupyter{
+        background: #ffcc00;
+        color: black;
+    }
+
+    &.html{
+        background: #ff6600;
+        color: white;
+    }
+
+    &.css{
+        background: #0099ff;
+        color: white;
+    }
+
+    &.javascript{
+        background: #ffcc00;
+        color: black;
+    }
+
+    &.django{
+        background: green;
+        color: white;
+    }
+
+    &.tensorflow{
+        background: #ff6600;
+        color: white;
+    }
+
+    &.cryptography{
+        background: darkslategray;
+        color: white;
+    }
+
+    &.php{
+        background: #4d4dff;
+        color: white;
+    }
+
+    &.markdown{
+        background: black;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .content-container{
+        padding: 0 0 5px 0;
+        margin: 2px 0 5px 0;
+        border-radius: 2em;
+        border: white 2px solid;
+    }
+    .tab-pane{
+        margin: 5px 0 5px 0;
+        width: 100%;
+    }
+
+    .list-group{
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+        border-radius: 0;
+    }
+
+    .row.my5{
+        margin: 0!important;
+    }
+}
