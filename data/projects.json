@@ -1,0 +1,100 @@
+{
+    "projects":
+    [
+        {
+            "title": "KeyLogPy",
+            "description": "KeyLogPy is a keylogger written in Python that logs the keys pressed on the keyboard and the timestampof the key press to a specified log sheet.",
+            "github": "https://github.com/MillsLogan/key_logpy",
+            "image": "images/keylogger.jpeg",
+            "showcase": null,
+            "tags": [
+                "Python",
+                "Keylogger",
+                "Logging",
+                "Security",
+                "Cybersecurity",
+                "Hacking",
+                "KeylogPy"
+            ]
+        },
+
+        {
+            "title": "Club Compass",
+            "description": "Club Compass is a web application made in Django that allows users and clubs to create accounts to manage club events and memberships, providing students a one-stop shop for club management and communication.",
+            "github": "https://github.com/MillsLogan/Club-Compass",
+            "image": "images/club_compass.png",
+            "showcase": "https://club-compass-ffb1c8fdacce.herokuapp.com/",
+            "tags": [
+                "Python",
+                "Django",
+                "Web Development",
+                "Club Management",
+                "Club Compass",
+                "Heroku",
+                "Bootstrap",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "MySQL"
+            ] 
+        },
+
+        {
+            "title": "Play Plate",
+            "description": "A semester long project for my Web Applications Class. Play Plate is a web application that hosts a collection of games that are commonly found on the back of a menu in a restaurant.",
+            "github": null,
+            "image": "images/play_plate.png",
+            "showcase": "https://cs4640.cs.virginia.edu/ppa9ed/playplate/",
+            "tags": [
+                "Web Development",
+                "Play Plate",
+                "Bootstrap",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Angular",
+                "TypeScript",
+                "Less",
+                "php",
+                "Full Stack",
+                "PostgreSQL"
+            ]
+        },
+
+        {
+            "title": "Connections_js",
+            "description": "A java script implementation of the popular NYT game Connections. Using custom categories and words.",
+            "github": "https://github.com/MillsLogan/connections_js",
+            "image": "images/connections_js.jpeg",
+            "showcase": "https://millslogan.github.io/connections_js/",
+            "tags": [
+                "JavaScript",
+                "Connections",
+                "Game",
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "Website"
+            ]
+        },
+
+        {
+            "title": "Ann Reader",
+            "description": "A Python module to aid in reading in documents with associated annotation files storing important entities and relationships within the document",
+            "github": "https://github.com/MillsLogan/ann_reader",
+            "image": "images/ann_reader.jpeg",
+            "showcase": null,
+            "tags": [
+                "Python",
+                "NLP",
+                "Natural Language Processing",
+                "Annotation",
+                "Document",
+                "Reader",
+                "Ann Reader",
+                "BRAT",
+                "Text"
+            ]
+        }
+    ]
+}
