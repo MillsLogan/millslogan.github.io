@@ -1,0 +1,607 @@
+{
+    "terms": [
+        {
+            "year": 2022,
+            "season": "Fall",
+            "courses": [
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 2130,
+                        "title": "Computer Systems and Organization 1"
+                    },
+        
+                    "description": "This course covers topics on the computer architecture abstraction hierarchy ranging from a step above silicon to a step below modern programming languages. Students in this course will learn to write low-level code in C and Assembly, how data is stored in memory, the basics of hardware design from gates and registers through general-purpose computers, and legal, ethical, and security issues related to these topics.",
+        
+                    "tags": [
+                        "Computer Systems",
+                        "Assembly",
+                        "C",
+                        "Memory",
+                        "Hardware Design",
+                        "Legal",
+                        "Ethical",
+                        "Security"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 2120,
+                        "title": "Discrete Mathematics 1"
+                    },
+        
+                    "description": "Introduces discrete mathematics and proof techniques involving first order predicate logic and induction. Application areas include sets, tuples, functions, relations, and combinatorial problems.",
+        
+                    "tags": [
+                        "Discrete Mathematics",
+                        "Proof Techniques",
+                        "Predicate Logic",
+                        "Induction",
+                        "Sets",
+                        "Tuples",
+                        "Functions",
+                        "Relations",
+                        "Combinatorial Problems"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 3140,
+                        "title": "Software Development Essentials"
+                    },
+
+                    "description": " A first course in software engineering and software construction, this course focuses on bringing the programming concepts learned in a first course in data structures and algorithms together to begin to teach students how to build more complex systems. The course covers introductory topics in testing, software design principles, design patterns, functional programming, and data storage and manipulation.",
+
+                    "tags":[
+                        "Software Engineering",
+                        "Software Construction",
+                        "Programming Concepts",
+                        "Data Structures",
+                        "Algorithms",
+                        "Testing",
+                        "Software Design Principles",
+                        "Design Patterns",
+                        "Functional Programming",
+                        "Data Storage",
+                        "Data Manipulation"
+                    ]
+                },
+                
+                {
+                    "information":{
+                        "department": "STS",
+                        "number": 1500,
+                        "title": "Science, Technology, and Contemporary Issues"
+                    },
+
+                    "description": "This course introduces students to contemporary issues involving science, technology, and engineering as well as the core ideas of STS. Emphasis is on three ideas: a) engineering is a social endeavor; b) technology shapes and is shaped by society; and c) technologies are sociotechnical systems. The course also teaches writing and public speaking, skills needed in engineering.",
+
+                    "tags": [
+                        "Science",
+                        "Technology",
+                        "Contemporary Issues",
+                        "Engineering",
+                        "STS",
+                        "Social Endeavor",
+                        "Sociotechnical Systems",
+                        "Public Speaking",
+                        "Writing"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "year": 2023,
+            "season": "Spring",
+            "courses": [
+                {
+                    "information": {
+                        "department": "APMA",
+                        "number": 3100,
+                        "title": "Probability"
+                    },
+
+                    "description": "A calculus-based introduction to probability theory and its applications in engineering and applied science. Includes counting techniques, conditional probability, independence, discrete and continuous random variables, probability distribution functions, expected value and variance, joint distributions, covariance, correlation, the Central Limit theorem, the Poisson process, an introduction to statistical inference.",
+
+                    "tags":[
+                        "Probability Theory",
+                        "Engineering",
+                        "Applied Science",
+                        "Counting Techniques",
+                        "Conditional Probability",
+                        "Independence",
+                        "Random Variables",
+                        "Probability Distribution Functions",
+                        "Expected Value",
+                        "Variance",
+                        "Joint Distributions",
+                        "Covariance",
+                        "Correlation",
+                        "Central Limit Theorem",
+                        "Poisson Process",
+                        "Statistical Inference"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 3100,
+                        "title": "Data Structures and Algorithms"
+                    },
+
+                    "description": "Builds upon previous analysis of algorithms and the effects of data structures on them. Algorithms selected from areas such as searching, shortest paths, greedy algorithms, backtracking, divide-and-conquer, dynamic programming, and machine learning. Analysis techniques include asymptotic worst case, expected time, amortized analysis, and reductions.",
+
+                    "tags": [
+                        "Data Structures",
+                        "Algorithms",
+                        "Searching",
+                        "Shortest Paths",
+                        "Greedy Algorithms",
+                        "Backtracking",
+                        "Divide-and-Conquer",
+                        "Dynamic Programming",
+                        "Machine Learning",
+                        "Asymptotic Analysis",
+                        "Expected Time",
+                        "Amortized Analysis",
+                        "Reductions"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 3130,
+                        "title": "Computer Systems and Organization 2"
+                    },
+
+                    "description": "A second course in computer systems, this course will explore a more realistic model of processors and how they and the operating system work together to provide various functionality we depend on as application programmers. Course topics include permission models, system architecture, concurrency, virtual memory, cryptographic primitives, and TCP/IP networking.",
+
+                    "tags": [
+                        "Computer Systems",
+                        "Processors",
+                        "Operating Systems",
+                        "Application Programming",
+                        "Permission Models",
+                        "System Architecture",
+                        "Concurrency",
+                        "Virtual Memory",
+                        "Cryptographic Primitives",
+                        "TCP/IP Networking"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "DS",
+                        "number": 1001,
+                        "title": "Foundation of Data Science"
+                    },
+
+                    "description": "Exposes students to the emerging field of Data Science, its domain areas, and popular applications. Topics include analytical methods, ethical issues associated with the field, engineering, and systems necessary to support data-related work, and design principles commonly seen in data communications and human center design. Students learn from leaders in the field through a series of guest lectures and work through discussion examples.",
+
+                    "tags":[
+                        "Data Science",
+                        "Analytical Methods",
+                        "Ethical Issues",
+                        "Engineering",
+                        "Systems",
+                        "Data Communications",
+                        "Human Center Design",
+                        "Guest Lectures",
+                        "Discussion Examples"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "STAT",
+                        "number": 1602,
+                        "title": "Introduction to Data Science with Python"
+                    },
+
+                    "description": "This course provides an introduction to various topics in data science using the Python programming language. The course will start with the basics of Python, and apply them to data cleaning, merging, transformation, and analytic methods drawn from data science analysis and statistics, with an emphasis on applications",
+
+                    "tags": [
+                        "Data Science",
+                        "Python",
+                        "Data Cleaning",
+                        "Data Merging",
+                        "Data Transformation",
+                        "Analytic Methods",
+                        "Statistics",
+                        "Applications"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "year": 2023,
+            "season": "Fall",
+            "courses": [
+                {
+                    "information": {
+                        "department": "APMA",
+                        "number": 3080,
+                        "title": "Linear Algebra"
+                    },
+
+                    "description": "Analyze and apply systems of linear equations; vector spaces; linear transformations; matrices; determinants; eigenvalues; eigenvectors; coordinates; diagonalization; orthogonality; projections; inner product spaces; quadratic forms; The course is both computational and applicable.",
+
+                    "tags":[
+                        "Linear Algebra",
+                        "Systems of Linear Equations",
+                        "Vector Spaces",
+                        "Linear Transformations",
+                        "Matrices",
+                        "Determinants",
+                        "Eigenvalues",
+                        "Eigenvectors",
+                        "Coordinates",
+                        "Diagonalization",
+                        "Orthogonality",
+                        "Projections",
+                        "Inner Product Spaces",
+                        "Quadratic Forms",
+                        "MATLAB",
+                        "Computational"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 3120,
+                        "title": "Discrete Mathematics and Theory 2"
+                    },
+
+                    "description": "The goal of this course is to understand the fundamental limits on what can be efficiently computed. These limits reveal properties about information, communication, and computing, as well as practical issues about how to solve problems. Introduces computation theory including grammars, automata, and Turing machines.",
+
+                    "tags":[
+                        "Discrete Mathematics",
+                        "Theory",
+                        "Efficient Computation",
+                        "Information",
+                        "Communication",
+                        "Computing",
+                        "Practical Issues",
+                        "Problems",
+                        "Computation Theory",
+                        "Grammars",
+                        "Automata",
+                        "Turing Machines"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 3240,
+                        "title": "Advanced Software Development"
+                    },
+
+                    "description": "Analyzes modern software engineering practice for multi-person projects; methods for requirements specification, design, implementation, verification, and maintenance of large software systems; advanced software development techniques and large project management approaches; project planning, scheduling, resource management, configuration control, and documentation.",
+                    
+                    "tags": [
+                        "Software Engineering",
+                        "Multi-Person Projects",
+                        "Requirements Specification",
+                        "Design",
+                        "Implementation",
+                        "Verification",
+                        "Maintenance",
+                        "Software Systems",
+                        "Advanced Software Development Techniques",
+                        "Large Project Management",
+                        "Project Planning",
+                        "Scheduling",
+                        "Resource Management",
+                        "Configuration Control",
+                        "Documentation"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 4774,
+                        "title": "Machine Learning"
+                    },
+
+                    "description": " An introduction to machine learning: the study of algorithms that improve their performance through experience. Covers both machine learning theory and algorithms. Introduces algorithms, theory, and applications related to both supervised and unsupervised learning, including regression, classification, and optimization and major algorithm families for each.",
+
+                    "tags": [
+                        "Machine Learning",
+                        "Algorithms",
+                        "Performance",
+                        "Experience",
+                        "Theory",
+                        "Supervised Learning",
+                        "Unsupervised Learning",
+                        "Regression",
+                        "Classification",
+                        "Optimization",
+                        "Algorithm Families",
+                        "Tensorflow",
+                        "Keras",
+                        "Python",
+                        "Applications",
+                        "Deep Learning",
+                        "Neural Networks",
+                        "Support Vector Machines",
+                        "Decision Trees",
+                        "Random Forests",
+                        "Clustering",
+                        "Dimensionality Reduction",
+                        "Feature Selection",
+                        "Evaluation",
+                        "Bias",
+                        "Variance",
+                        "Overfitting",
+                        "Regularization",
+                        "Cross-Validation",
+                        "Hyperparameter Tuning",
+                        "Ensemble Methods",
+                        "Bagging",
+                        "Boosting",
+                        "Stacking",
+                        "Gradient Descent",
+                        "Backpropagation",
+                        "Convolutional Neural Networks",
+                        "Recurrent Neural Networks",
+                        "Generative Adversarial Networks",
+                        "Autoencoders",
+                        "Reinforcement Learning",
+                        "Q-Learning",
+                        "Deep Q-Learning"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "year": 2024,
+            "season": "Spring",
+            "courses": [
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 3710,
+                        "title": "Introduction to Cybersecurity"
+                    },
+
+                    "description": "Introduces students to the fields of cybersecurity. Both non-technical issues, such as ethics and policy, and technical issues are covered. Students see and experiment with a wide range of areas within cybersecurity, including: binary exploitation, encryption, digital forensics, networks, and modern threats.",
+
+                    "tags": [
+                        "Cybersecurity",
+                        "Information Security",
+                        "Network Security",
+                        "Cryptography",
+                        "Firewalls",
+                        "Intrusion Detection",
+                        "Malware Analysis",
+                        "Risk Management",
+                        "Ethical Hacking",
+                        "Data Privacy",
+                        "Computer Forensics"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 4640,
+                        "title": "Programming Languages for Web Applications"
+                    },
+
+                    "description": "Presents programming languages and implementations used in developing web applications. Both client and server side languages are presented as well as database languages. In addition, frameworks that enable interactive web pages are discussed as well as formatting languages. Language features and efficiencies including scoping, parameter passing, object orientation, just in time compilation and dynamic binary translation are included.",
+                    
+                    "tags": [
+                        "Web Development",
+                        "Programming Languages",
+                        "HTML",
+                        "CSS",
+                        "JavaScript",
+                        "Front-End Development",
+                        "Back-End Development",
+                        "Full Stack Development",
+                        "Web Applications",
+                        "APIs",
+                        "Database Management",
+                        "Server-Side Programming",
+                        "Client-Side Programming",
+                        "Frameworks",
+                        "Interactive Web Pages",
+                        "Less",
+                        "Sass",
+                        "Boostrap",
+                        "Angular",
+                        "Typescript"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 4710,
+                        "title": "Artificial Intelligence"
+                    },
+
+                    "description": "Introduces artificial intelligence. Covers fundamental concepts and techniques and surveys selected application areas. Core material includes state space search, logic, and resolution theorem proving. Application areas may include expert systems, natural language understanding, planning, machine learning, or machine perception. Provides exposure to AI implementation methods, emphasizing programming in Common LISP.",
+
+                    "tags": [
+                        "Artificial Intelligence",
+                        "Machine Learning",
+                        "Deep Learning",
+                        "Neural Networks",
+                        "Natural Language Processing",
+                        "Computer Vision",
+                        "Reinforcement Learning",
+                        "Supervised Learning",
+                        "Unsupervised Learning",
+                        "AI Ethics",
+                        "Data Mining",
+                        "Predictive Modeling"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "ECE",
+                        "number": "3502",
+                        "title": "Foundations of Data Analysis"
+                    },
+
+                    "description": "This course is an introduction to the foundations behind modern data analysis and machine learning. The first part of the course covers selected topics from probability theory and linear algebra that are key components of modern data analysis. Next, we cover multivariate statistical techniques for dimensionality reduction, regression, and classification. Finally, we survey recent topics in machine learning, in particular, deep neural networks.",
+
+                    "tags": [
+                        "Data Analysis",
+                        "Statistics",
+                        "Data Visualization",
+                        "Predictive Modeling",
+                        "Machine Learning",
+                        "Data Mining",
+                        "Statistical Software",
+                        "Data Cleaning",
+                        "Exploratory Data Analysis",
+                        "Regression Analysis",
+                        "Hypothesis Testing",
+                        "Probability"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "STS",
+                        "number": 2600,
+                        "title": "Engineering Ethics"
+                    },
+
+                    "description": "The mission of UVA - SEAS is \"to make the world a better place by creating and disseminating knowledge and by preparing engineering leaders to solve global challenges.\" In alignment with that mission, this course seeks to equip undergraduates with knowledge, understanding, and practice to prepare them for ethical leadership now, as students, and for their future as engineering leaders.",
+
+                    "tags": [
+                        "Ethics",
+                        "Moral Philosophy",
+                        "Applied Ethics",
+                        "Ethical Theory",
+                        "Social Responsibility",
+                        "Business Ethics",
+                        "Medical Ethics",
+                        "Environmental Ethics",
+                        "Ethics in Technology",
+                        "Ethical Decision Making",
+                        "Professional Ethics",
+                        "Ethical Dilemmas"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "year": 2024,
+            "season": "Fall",
+            "courses": [
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 4260,
+                        "title": "Internet Scale Applications"
+                    },
+
+                    "description": " A survey of methods for building large-scale internet websites and mobile apps, with a focus on how theory meets practice. Topics covered include performance engineering, scaling, security, and large team software engineering. Results in students building a working scalable online application.",
+
+                    "tags":[
+                        "Internet Scale Applications",
+                        "Large-Scale Websites",
+                        "Mobile Apps",
+                        "Performance Engineering",
+                        "Scaling",
+                        "Security",
+                        "Large Team Software Engineering",
+                        "Scalable Online Applications"
+                    ]
+                },
+
+                {
+                    "information":{ 
+                        "department": "CS",
+                        "number": 4730,
+                        "title": "Computer Game Design"
+                    },
+
+                    "description": " This course will introduce students to the concepts and tools used in the development of modern 2-D and 3-D real-time interactive computer video games. Topics covered in this include graphics, parallel processing, human-computer interaction, networking, artificial intelligence, and software engineering.",
+                    
+                    "tags": [
+                        "Game Development",
+                        "Computer Graphics",
+                        "Game Design",
+                        "Game Programming",
+                        "Unity",
+                        "Unreal Engine",
+                        "3D Modeling",
+                        "Animation",
+                        "Physics Simulation",
+                        "Artificial Intelligence",
+                        "Level Design",
+                        "Game Testing"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "CS",
+                        "number": 4750,
+                        "title": "Database Systems"
+                    },
+
+                    "description": "Introduces the fundamental concepts for design and development of database systems. Emphasizes relational data model and conceptual schema design using ER model, practical issues in commercial database systems, database design using functional dependencies, and other data models. Develops a working relational database for a realistic application.",
+
+                    "tags": [
+                        "Database Systems",
+                        "SQL",
+                        "NoSQL",
+                        "Database Design",
+                        "Data Modeling",
+                        "Normalization",
+                        "Transactions",
+                        "Concurrency Control",
+                        "Database Security",
+                        "Relational Databases",
+                        "Distributed Databases",
+                        "Database Management Systems"
+                    ]
+                },
+
+                {
+                    "information": {
+                        "department": "STS",
+                        "number": 4500,
+                        "title": "STS and Engineering Practice - Case Studies in Tech and Society"
+                    },
+
+                    "description": "This course engages students with the idea that success in posing and solving engineering problems requires attention to the social dimensions of professional endeavors and practice. STS theories and methods are applied to student thesis projects. Students produce a prospectus for the undregraduate thesis project. Students must be in residence to take this course.",
+
+                    "tags": [
+                        "STS",
+                        "Engineering Practice",
+                        "Case Studies",
+                        "Tech and Society",
+                        "Social Dimensions",
+                        "Professional Endeavors",
+                        "STS Theories",
+                        "STS Methods",
+                        "Undergraduate Thesis Project",
+                        "Prospectus"
+                    ]
+                }
+            ]
+        }
+    ]
+}

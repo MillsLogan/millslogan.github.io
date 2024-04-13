@@ -60,7 +60,17 @@
     </header>
     
     <main class="container">
-        <h1 class="text-center mt-3 display-1">Projects</h1>
+        <h1 class="text-center mt-3 display-1 mb-2">Projects</h1>
+        <p class="text-center mb-5">Here are some of the projects I have worked on.
+            <br>Click on a project to view the GitHub Repository.
+            <br>Use the search bar to filter projects by name, description, and language.
+        </p>
+        <div id="search-filter-container">
+            <div class="input-group mb-3">
+                <input id="search-filter" type="text" class="form-control" placeholder="Search projects..." aria-label="Search projects..." aria-describedby="search-filter-button">
+                <button id="search-filter-button" class="btn btn-outline-success" type="button">Search</button>
+            </div>
+        </div>
         <div id="projects-list" class="row mt-5">
             
         </div>

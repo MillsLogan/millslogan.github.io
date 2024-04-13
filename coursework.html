@@ -11,6 +11,8 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/32675de95f.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 
     <meta property="og:title" content="Logan Mills">
     <meta property="og:type" content="website">
@@ -58,277 +60,17 @@
         </nav>
     </header>
     
-    <section style="display: flex; flex-direction: column;" class="bg-theme-light">
-        <div class="container-lg center">
+    <main style="display: flex; flex-direction: column;" class="bg-theme-light">
+        <div class="container-xl center">
             <h1 class="display-1">Coursework</h1>
             <hr>
             <p class="lead">Look through the different tabs to find a description of the different classes I've taken.</p>
-
-
-            <!--FALL 2022-->
-            <div class="content-container">
-                <h2 class="display-2">Fall 2022</h2>
-                <hr>
-                <div class="row semester-container">
-                    <div class="col-lg-4">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-cs2130-list" data-bs-toggle="list" href="#list-cs2130" role="tab" aria-controls="list-cs2130">Computer Systems and Organization 1 
-                                <br>
-                                <span class="badge c"><i class="fa-sharp fa-solid fa-c"></i></span>
-                                <span class="badge bash"><i class="fa-solid fa-terminal"></i> Bash</span>
-                                <span class="badge assembly"><i class="fa-solid fa-code"></i> Assembly</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-cs2120-list" data-bs-toggle="list" href="#list-cs2120" role="tab" aria-controls="list-cs2120">Discrete Math and Theory 1
-                                <br>
-                                <span class="badge math"><i class="fa-sharp fa-solid fa-calculator"></i> Math</span>
-                                <span class="badge lean">Lean</span>
-                            </a>
-
-                            <a class="list-group-item list-group-item-action" id="list-cs3140-list" data-bs-toggle="list" href="#list-cs3140" role="tab" aria-controls="list-cs3140">Software Development Essentials
-                                <br>
-                                <span class="badge java"><i class="fa-brands fa-java"></i> Java</span>
-                                <span class="badge agile"><i class="fa-solid fa-people-arrows"></i> Agile</span>
-                                <span class="badge git"><i class="fa-brands fa-git"></i> Git</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                            <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-cs2130" role="tabpanel" aria-labelledby="list-cs2130-list">
-                                <h3 class="mt-2">Computer Systems and Organization 1 (CS 2130)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to computer systems and organization. Topics include digital logic, data representation, computer architecture, assembly language, and operating systems. The course is intended to provide a foundation for further study in computer science and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-cs2120" role="tabpanel" aria-labelledby="list-cs2120-list">
-                                <h3 class="mt-2">Discrete Mathematics 1 (CS 2120)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to discrete mathematics and its applications. Topics include logic, sets, functions, relations, combinatorics, graph theory, and finite state machines. The course is intended to provide a foundation for further study in computer science and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-cs3140" role="tabpanel" aria-labelledby="list-cs3140-list">
-                                <h3 class="mt-2">Software Development Essentials (CS 3140)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to software development. Topics include software development processes, requirements analysis, software design, software testing, and software maintenance. The course is intended to provide a foundation for further study in computer science and related disciplines.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!--SPRING 2023-->
-            <div class="content-container mt-5">
-                <h2 class="display-2">Spring 2023</h2>
-                <hr>
-                <div class="row semester-container">
-                    <div class="col-lg-4">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-cs3100-list" data-bs-toggle="list" href="#list-cs3100" role="tab" aria-controls="list-cs3100">Data Structures and Algorithms 2
-                                <br>
-                                <span class="badge java"><i class="fa-brands fa-java"></i> Java</span>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge latex"><i class="fa-solid fa-font"></i> Latex</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-3130-list" data-bs-toggle="list" href="#list-3130" role="tab" aria-controls="list-cs3130">Computer Systems and Organization 2
-                                <br>
-                                <span class="badge c"><i class="fa-sharp fa-solid fa-c"></i></span>
-                                <span class="badge bash"><i class="fa-solid fa-terminal"></i> Bash</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-ds1001-list" data-bs-toggle="list" href="#list-ds1001" role="tab" aria-controls="list-ds1001">Foundations of Data Science
-                                <br>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge latex"><i class="fa-solid fa-font"></i> Latex</span>
-                                <span class="badge jupyter"><i class="fa-solid fa-globe"></i> Jupyter Notebooks</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-stat1602-list" data-bs-toggle="list" href="#list-stat1602" role="tab" aria-controls="list-stat1602">Introduction to Data Science with Python
-                                <br>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge jupyter"><i class="fa-solid fa-globe"></i> Jupyter Notebooks</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                            <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-cs3100" role="tabpanel" aria-labelledby="list-cs3100-list">
-                                <h3 class="mt-2">Data Structures and Algorithms 2 (CS 3100)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is a continuation of CS 2100. Topics include advanced data structures, algorithm analysis, and algorithm design. The course is intended to provide a foundation for further study in computer science and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-3130" role="tabpanel" aria-labelledby="list-3130-list">
-                                <h3 class="mt-2">Computer Systems and Organization 2</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to computer systems and organization. Topics include digital logic, data representation, computer architecture, assembly language, and operating systems. The course is intended to provide a foundation for further study in computer science and related disciplines.    
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-ds1001" role="tabpanel" aria-labelledby="list-ds1001-list">
-                                <h3 class="mt-2">Foundations of Data Science (DS 1001)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to data science. Topics include data collection, data cleaning, data analysis, and data visualization. The course is intended to provide a foundation for further study in data science and related disciplines.    
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-stat1602" role="tabpanel" aria-labelledby="list-stat1602-list">
-                                <h3 class="mt-2">Introduction to Data Science with Python</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to data science with Python. Topics include data collection, data cleaning, data analysis, and data visualization. The course is intended to provide a foundation for further study in data science and related disciplines.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!--Fall 2023-->
-            <div class="content-container mt-5">
-                <h2 class="display-2">Fall 2023</h2>
-                <hr>
-                <div class="row semester-container">
-                    <div class="col-lg-4">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-apma3080-list" data-bs-toggle="list" href="#list-apma3080" role="tab" aria-controls="list-apma3080">Linear Algebra
-                                <br>
-                                <span class="badge math"><i class="fa-sharp fa-solid fa-calculator"></i> Math</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-cs3120-list" data-bs-toggle="list" href="#list-cs3120" role="tab" aria-controls="list-cs3120">Discrete Math and Theory 2
-                                <br>
-                                <span class="badge math"><i class="fa-sharp fa-solid fa-calculator"></i> Math</span>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge latex"><i class="fa-solid fa-font"></i> Latex</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-cs3240-list" data-bs-toggle="list" href="#list-cs3240" role="tab" aria-controls="list-cs3240">Advanced Software Development
-                                <br>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge html"><i class="fa-brands fa-html5"></i> HTML</span>
-                                <span class="badge css"><i class="fa-brands fa-css3-alt"></i> CSS</span>
-                                <span class="badge django"><i class="fa-brands fa-django"></i> Django</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-cs4774-list" data-bs-toggle="list" href="#list-cs4774" role="tab" aria-controls="list-cs4774">Machine Learning
-                                <br>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge jupyter"><i class="fa-solid fa-globe"></i> Jupyter Notebooks</span>
-                                <span class="badge tensorflow"><i class="fa-brands fa-tensorflow"></i> TensorFlow</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                            <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-apma3080" role="tabpanel" aria-labelledby="list-apma3080-list">
-                                <h3 class="mt-2">Linear Algebra (APMA 3800)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to linear algebra. Topics include vector spaces, linear transformations, eigenvalues, eigenvectors, and matrix factorizations. The course is intended to provide a foundation for further study in mathematics and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-cs3120" role="tabpanel" aria-labelledby="list-cs3120-list">
-                                <h3 class="mt-2">Discrete Math and Theory 2 (CS3120)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to discrete mathematics and its applications. Topics include logic, sets, functions, relations, combinatorics, graph theory, and finite state machines. The course is intended to provide a foundation for further study in computer science and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-cs3240" role="tabpanel" aria-labelledby="list-cs3240-list">
-                                <h3 class="mt-2">Advanced Software Development (CS 3240)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is a continuation of CS 3140. Topics include software development processes, requirements analysis, software design, software testing, and software maintenance. The course is intended to provide a foundation for further study in computer science and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-cs4774" role="tabpanel" aria-labelledby="list-cs4774-list">
-                                <h3 class="mt-2">Machine Learning (CS 4774)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to machine learning. Topics include supervised learning, unsupervised learning, and reinforcement learning. The course is intended to provide a foundation for further study in machine learning and related disciplines.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!--Spring 2024-->
-            <div class="content-container mt-5">
-                <h2 class="display-2">Spring 2024</h2>
-                <hr>
-                <div class="row semester-container">
-                    <div class="col-lg-4">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-cs3710-list" data-bs-toggle="list" href="#list-cs3710" role="tab" aria-controls="list-cs3710">Introduction to Cyber Security
-                                <br>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge bash"><i class="fa-solid fa-terminal"></i> Bash</span>
-                                <span class="badge cryptography"><i class="fa-solid fa-lock"></i> Cryptography</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-cs4640-list" data-bs-toggle="list" href="#list-cs4640" role="tab" aria-controls="list-cs4640">Programming Languages for Web Applications
-                                <br>
-                                <span class="badge html"><i class="fa-brands fa-html5"></i> HTML</span>
-                                <span class="badge css"><i class="fa-brands fa-css3-alt"></i> CSS</span>
-                                <span class="badge javascript"><i class="fa-brands fa-js"></i> JavaScript</span>
-                                <span class="badge php"><i class="fa-brands fa-php"></i> PHP</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-cs4710-list" data-bs-toggle="list" href="#list-cs4710" role="tab" aria-controls="list-cs4710">Artificial Intelligence
-                                <br>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge jupyter"><i class="fa-solid fa-globe"></i> Jupyter Notebooks</span>
-                                <span class="badge tensorflow"><i class="fa-brands fa-tensorflow"></i> TensorFlow</span>
-                                <span class="badge markdown"><i class="fa-brands fa-markdown"></i> Markdown</span>
-                            </a>
-                            <a class="list-group-item list-group-item-action" id="list-ece3502-list" data-bs-toggle="list" href="#list-ece3502" role="tab" aria-controls="list-ece3502">Foundations of Data Analysis
-                                <br>
-                                <span class="badge python"><i class="fa-brands fa-python"></i> Python</span>
-                                <span class="badge jupyter"><i class="fa-solid fa-globe"></i> Jupyter Notebooks</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                            <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-cs3710" role="tabpanel" aria-labelledby="list-cs3710-list">
-                                <h3 class="mt-2">Introduction to Cyber Security (CS 3710)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to cyber security. Topics include cryptography, network security, and software security. The course is intended to provide a foundation for further study in cyber security and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-cs4640" role="tabpanel" aria-labelledby="list-cs4640-list">
-                                <h3 class="mt-2">Programming Languages for Web Applications (CS 4640)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to programming languages for web applications. Topics include HTML, CSS, JavaScript, and web development frameworks. The course is intended to provide a foundation for further study in web development and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-cs4710" role="tabpanel" aria-labelledby="list-cs4710-list">
-                                <h3 class="mt-2">Artificial Intelligence (CS 4710)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to artificial intelligence. Topics include search, knowledge representation, reasoning, and machine learning. The course is intended to provide a foundation for further study in artificial intelligence and related disciplines.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-ece3502" role="tabpanel" aria-labelledby="list-ece3502-list">
-                                <h3 class="mt-2">Foundations of Data Analysis (ECE 3502)</h3>
-                                <hr>
-                                <p class="text px-2">
-                                    This course is an introduction to data analysis. Topics include data collection, data cleaning, data analysis, and data visualization. The course is intended to provide a foundation for further study in data analysis and related disciplines.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>        
-    </section>
+            
+            <section id="course-terms-list" class="container-xl">
+                
+            </section>
+        </div>
+    </main>
     
     
     <footer class="py-3 bg-theme">
@@ -343,6 +85,7 @@
         <p class="text-center">© 2024 Logan Mills</p>
     </footer>
 
+    <script src="scripts/courses.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
