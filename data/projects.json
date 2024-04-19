@@ -95,6 +95,23 @@
                 "BRAT",
                 "Text"
             ]
+        },
+
+        {
+            "title": "Lights Out",
+            "description": "A Java Script implementation of the game Lights Out. The goal of the game is to turn off all the lights.",
+            "github": "https://github.com/MillsLogan/lights_out",
+            "image": "images/lights_out.jpeg",
+            "showcase": "https://millslogan.github.io/lights_out/",
+            "tags": [
+                "JavaScript",
+                "Lights Out",
+                "Game",
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "Website"
+            ]
         }
     ]
 }
