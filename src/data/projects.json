@@ -1,0 +1,85 @@
+{
+    "projects": [
+      {
+        "title": "Portfolio Website",
+        "description": "The site you're currently viewing—yes, it's all very meta—a showcase of my projects and skills.",
+        "image": "portfolio-site.png",
+        "githubLink": "https://github.com/millslogan/portfolio",
+        "demoLink": "https://millslogan.github.io",
+        "technologies": ["html5", "css3", "javascript", "bootstrap", "react", "vitejs"],
+        "tags": ["web development", "front-end", "responsive design"],
+        "writeup": "#blogs/portfolio-website"
+      },
+      {
+        "title": "Boat Bounce Game",
+        "description": "A 2D rogue-like platformer game where you unlock new abilities to navigate through randomly ordered levels, built in Unity.",
+        "image": "boat-bounce.png",
+        "githubLink": "https://github.com/millslogan/boat-bounce",
+        "demoLink": "https://millslogan.github.io/boat-bounce/",
+        "technologies": ["unity", "csharp"],
+        "tags": ["unity", "game development", "2D game"],
+        "writeup": "#blogs/boat-bounce"
+      },
+      {
+        "title": "uCalcX",
+        "description": "A Python library for handling units of measurement and performing conversions across various physical quantities.",
+        "image": "ucalcx.png",
+        "githubLink": "https://github.com/millslogan/uCalcX",
+        "demoLink": "",
+        "technologies": ["python"],
+        "tags": ["unit conversion", "library"],
+        "writeup": "#blogs/uCalcX"
+      },
+      {
+        "title": "CFG Calculator",
+        "description": "A calculator implementing a context-free grammar for evaluating expressions.",
+        "image": "cfg_calc.png",
+        "githubLink": "https://github.com/MillsLogan/CFG_Calculator",
+        "demoLink": "",
+        "technologies": ["cplusplus"],
+        "tags": ["calculator", "context-free grammar"],
+        "writeup": "#blogs/cfg-calculator"
+      },
+      {
+        "title": "Connections JS",
+        "description": "An implementation of the popular New York Times game, Connections, using JavaScript.",
+        "image": "connections_js.png",
+        "githubLink": "https://github.com/MillsLogan/connections_js",
+        "demoLink": "",
+        "technologies": ["javascript", "bootstrap", "css3", "html5"],
+        "tags": ["game development", "web application"],
+        "writeup": "#blogs/connections-js"
+      },
+      {
+        "title": "Lights Out",
+        "description": "A JavaScript implementation of the game Lights Out.",
+        "image": "lights_out.png",
+        "githubLink": "https://github.com/MillsLogan/lights_out",
+        "demoLink": "",
+        "technologies": ["html5", "javascript", "bootstrap", "css3"],
+        "tags": ["game development", "web application"],
+        "writeup": "#blogs/lights-out"
+      },
+      {
+        "title": "Terminal Invaders",
+        "description": "Space Invaders made in C++ using NCurses.",
+        "image": "terminal_invaders.png",
+        "githubLink": "https://github.com/MillsLogan/terminal_invaders",
+        "demoLink": "",
+        "technologies": ["cplusplus"],
+        "tags": ["game development", "terminal game"],
+        "writeup": "#blogs/terminal-invaders"
+      },
+      {
+        "title": "Key Logpy",
+        "description": "A Python program that logs keystrokes on the machine to a specified log file.",
+        "image": "keylogger.jpeg",
+        "githubLink": "https://github.com/MillsLogan/key_logpy",
+        "demoLink": "",
+        "technologies": ["python"],
+        "tags": ["keylogger", "python script"],
+        "writeup": "#blogs/key-logpy"
+      }
+    ]
+  }
+  

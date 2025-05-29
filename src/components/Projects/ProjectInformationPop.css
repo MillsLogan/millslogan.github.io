@@ -1,0 +1,19 @@
+.project-information-pop {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--text);
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.project-card:hover .project-information-pop {
+  opacity: 1;
+  visibility: visible;
+}

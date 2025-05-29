@@ -1,0 +1,27 @@
+.hero-name {
+    font-size: 2em;
+    font-weight: bold;
+    background: linear-gradient(45deg, #00CFCF, #5BADE9);
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-strong {
+    color: #5BADE9;
+    font-weight: bold;
+}
+
+.hero-strong:first-of-type {
+    color: #00CFCF;
+}
+
+.hero-section, .hero {
+    min-height: calc(100vh - 57px);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

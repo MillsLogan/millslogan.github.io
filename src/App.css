@@ -1,0 +1,37 @@
+:root {
+  --bg: #1b1e1f;
+  --text: #eeeeee;
+  --accent: #2d7980;
+  --accent-light: #3c9ca6;
+  --accent-dark: #265f64;
+  --accent-lightest: #4db6b8;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.page-container {
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: calc(100vh - 57px);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-link {
+  text-decoration: none;
+  color: #fff;
+  display: inline;
+  margin: 0 10px;
+  font-size: 2em;
+  transition: all 0.3s ease;
+}
+
+.footer-social-link:hover {
+  color: #5BADE9;
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}

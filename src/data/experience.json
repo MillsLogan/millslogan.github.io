@@ -1,0 +1,47 @@
+[
+    {
+        "company": "Natural Language Processing Lab at Virginia Commonwealth University",
+        "position": "Research Assistant",
+        "startDate": "11/23",
+        "responsibilities": [
+            "Conduct research on advanced natural language processing (NLP) algorithms and techniques.",
+            "Develop and implement machine learning models for various NLP tasks named entity recognition and relation extraction",
+            "Collaborate with a multidisciplinary team of researchers to design experiments and analyze results.",
+            "Present findings at lab meetings and contribute to academic publications.",
+            "Utilize programming languages and tools such as Python, TensorFlow, and NLTK for model development and data analysis.",
+            "Stay current with the latest advancements in NLP and machine learning to apply cutting-edge methods to research initiatives."
+        ],
+        "description": "As a Research Assistant at the NLP Lab, I am involved in cutting-edge research projects that explore the capabilities of machine learning in understanding and processing human language. My role includes developing algorithms, analyzing data, and collaborating with other researchers to push the boundaries of what is possible in NLP.",
+        "skills": [
+            "Natural Language Processing",
+            "Machine Learning",
+            "Python",
+            "TensorFlow",
+            "NLTK",
+            "Data Analysis"
+        ]
+    },
+    {
+        "company": "CVS Health",
+        "position": "Lead Pharmacy Technician",
+        "startDate": "05/22",
+        "responsibilities": [
+            "Oversee daily operations of the pharmacy to ensure efficient workflow and adherence to all regulatory guidelines.",            
+            "Manage and mentor a team of pharmacy technicians, providing training, guidance, and performance feedback.",
+            "Process prescription orders with accuracy, ensuring compliance with all federal and state regulations.",
+            "Assist pharmacists in preparing and dispensing medications.",
+            "Handle customer service inquiries and resolve issues.",
+            "Collaborate with healthcare providers and insurance companies to facilitate patient care and resolve billing issues.",
+            "Utilize pharmacy management software for processing prescriptions and maintaining patient records.",
+            "Stay current with industry developments and advancements to continuously improve pharmacy operations and patient care."
+        ],
+        "description": "In my role as a Lead Pharmacy Technician at CVS Health, I am responsible for managing the pharmacy's daily operations, ensuring compliance with regulations, and providing exceptional service to patients. My leadership skills are utilized to mentor and guide a team of technicians while maintaining a focus on accuracy and efficiency in medication dispensing.",
+        "skills": [
+            "Pharmacy Operations",
+            "Team Leadership",
+            "Customer Service",
+            "Regulatory Compliance",
+            "Medication Dispensing"
+        ]
+    }
+]

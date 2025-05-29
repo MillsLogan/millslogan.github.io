@@ -1,0 +1,86 @@
+{
+    "projects": [
+      {
+        "title": "Portfolio Website",
+        "description": "The site you're currently viewing—yes, it's all very meta—a showcase of my projects and skills.",
+        "image": "/src/assets/portfolio-site.png",
+        "githubLink": "https://github.com/username/portfolio",
+        "demoLink": "https://username.github.io/portfolio",
+        "technologies": ["html5", "css3", "javascript", "react", "bootstrap"],
+        "tags": ["web development", "front-end", "responsive design"],
+        "writeup": "#blogs/portfolio-website"
+      },
+      {
+        "title": "Play Plate",
+            "description": "A collection of games commonly found on the back of a menu, now available on your phone.",
+            "image": "/src/assets/play_plate.png",
+            "githubLink": null,
+            "demoLink": "https://cs4640.cs.virginia.edu/ppa9ed/playplate/",
+            "technologies": [
+                "html5",
+                "css3",
+                "javascript",
+                "less",
+                "php",
+                "postgreSQL",
+                "bootstrap"
+            ],
+            "tags": [
+                "Web Development",
+                "Play Plate",
+                "Bootstrap",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Angular",
+                "TypeScript",
+                "Less",
+                "php",
+                "Full Stack",
+                "PostgreSQL"
+            ],
+            "writeup": "#blogs/play_plate"
+      },
+      {
+        "title": "CFG Calculator",
+        "description": "A command line calculator that evaluates arithmetic expressions and supports variables, implemented in C++ using a context free grammar.",
+        "image": "/src/assets/cfg_calc.png",
+        "githubLink": "https://github.com/millslogan/cfg_calculator",
+        "demoLink": null,
+        "technologies": ["cplusplus"],
+        "tags": ["CFG", "Calculator", "C++", "Context Free Grammar"],
+        "writeup": "#blogs/cfg_calculator"
+      },
+      {
+        "title": "Lights Out",
+        "description": "A web-based puzzle game where the goal is to turn off all the lights on the board.",
+        "image": "/src/assets/lights_out.png",
+        "githubLink": "https://github.com/millslogan/lights_out",
+        "demoLink": "millslogan.github.io/lights_out",
+        "technologies": ["html5", "css3", "javascript", "bootstrap"],
+        "tags": ["Web Development", "Connections", "Bootstrap", "HTML", "CSS", "JavaScript"],
+        "writeup": "#blogs/lights_out"
+      },
+      {
+        "title": "Machine Learning Model",
+        "description": "A Python project implementing a machine learning model to predict housing prices.",
+        "image": "assets/ml-model.png",
+        "githubLink": "https://github.com/username/housing-price-prediction",
+        "demoLink": "https://colab.research.google.com/housing-price-prediction",
+        "technologies": ["Python", "scikit-learn", "pandas", "NumPy"],
+        "tags": ["machine learning", "data science", "Python"],
+        "writeup": "#blogs/machine-learning-model"
+      },
+      {
+        "title": "Game Development Project",
+        "description": "A 2D platformer game built with Unity, featuring dynamic levels and fun power-ups.",
+        "image": "assets/game-dev.png",
+        "githubLink": "https://github.com/username/platformer-game",
+        "demoLink": "https://platformer-demo.example.com",
+        "technologies": ["Unity", "C#", "2D game development"],
+        "tags": ["game development", "Unity", "platformer"],
+        "writeup": "#blogs/game-development-project"
+      }
+    ]
+  }
+  

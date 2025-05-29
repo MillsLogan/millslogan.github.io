@@ -1,0 +1,23 @@
+div.contact-card {
+    cursor: pointer;
+}
+
+div.card-title{
+    font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+    div.card-title {
+        font-size: 3rem;
+    }
+}
+
+h2.icon-link {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+h2.icon-link:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}

@@ -1,0 +1,38 @@
+.graduate {
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.undergraduate {
+    border-color: rgb(23, 130, 156);
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.term-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.grad-level-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+}
