@@ -79,6 +79,26 @@
         "technologies": ["python"],
         "tags": ["keylogger", "python script"],
         "writeup": "#blogs/key-logpy"
+      },
+      {
+        "title": "Family NFL Prediction",
+        "description": "Family NFL game predictions website with automated score tracking, built with Angular and Google Sheets.",
+        "image": "nfl-preds.png",
+        "githubLink": "https://github.com/millslogan/nfl-preds",
+        "demoLink": "https://millslogan.github.io/nfl-preds/",
+        "technologies": ["angular", "typescript", "google-sheets", "google-apps-script"],
+        "tags": ["web application", "angular", "sports"],
+        "writeup": "#blogs/nfl-preds"
+      },
+      {
+        "title": "Hole Punch Practice",
+        "description": "A playground and generator to help dental students study for the perceptual ability portion of the DAT exam. It includes a playground for students to visualize folds and a generator to create new problems for additional practice.",
+        "image": "holepunch.png",
+        "githubLink": "https:.//github.com/millslogan/holepunch",
+        "demoLink": "https://millslogan.github.io/holepunch/",
+        "technologies": ["html5", "css3", "javascript", "bootstrap", "react", "vitejs"],
+        "tags": ["web application", "education", "react"],
+        "writeup": "#blogs/holepunch"
       }
     ]
   }
