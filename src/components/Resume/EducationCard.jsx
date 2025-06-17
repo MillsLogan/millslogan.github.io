@@ -1,7 +1,7 @@
 import LinkButton from "../Common/LinkButton";
 import "./ExperienceCard.css";
 
-export default function EducationCard({ degree, university, school, completeDate, distinction=null, relavantCourses=null, gpa, completed=true }) {
+export default function EducationCard({ degree, university, school, completeDate, distinction=null, relavantCourses=null, gpa, completed=true, transcriptLink="/undergradTranscript.pdf" }) {
     return (
         <>
             <div className="card mb-3">
@@ -25,7 +25,7 @@ export default function EducationCard({ degree, university, school, completeDate
                     <div className="d-flex justify-content-between align-items-center">
                         {gpa && <p className="card-text my-auto"><strong>GPA:</strong> {gpa}<small className="text-muted">/4.0</small></p>}
                         {distinction && <p className="card-text my-auto"><strong>Distinction:</strong> {distinction}</p>}
-                        <LinkButton variant="ghost-outline" to="https://www.linkedin.com/in/logan-r-mills/" external={true}>
+                        <LinkButton variant="ghost-outline" to={transcriptLink} external={true}>
                             View Transcript
                         </LinkButton>
                     </div>

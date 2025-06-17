@@ -28,7 +28,7 @@ function Resume() {
               </div>
               <div className="col-12">
                 <strong>Download PDF Version</strong><br/>
-                <LinkButton variant="ghost-underline" to="/resume.pdf" external={true}>Download Resume</LinkButton>
+                <LinkButton variant="ghost-underline" to="/Resume.pdf" external={true}>Download Resume</LinkButton>
               </div>
             </div>
           </div>
