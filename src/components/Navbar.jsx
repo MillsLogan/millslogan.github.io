@@ -4,13 +4,13 @@ import { useState, useEffect } from "react";
 import LinkButton from "./Common/LinkButton";
 
 function Navbar() {
-    const [activeTab, setActiveTab] = useState("#home");
+    const [activeTab, setActiveTab] = useState("/#home");
 
     useEffect(() => {
-        setActiveTab(window.location.hash || "#home");
+        setActiveTab("/" + window.location.hash || "/#home");
 
         const handleHashChange = () => {
-            setActiveTab(window.location.hash || "#home");
+            setActiveTab("/" + window.location.hash || "/#home");
             renderPage();
         }
 

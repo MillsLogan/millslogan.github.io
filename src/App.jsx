@@ -13,23 +13,12 @@ import Footer from './components/Footer.jsx'
 function App() {
   const [currentPage, setCurrentPage] = useState(window.location.hash.slice(1) || "home");
 
-  useEffect(() => {
-    const handleHashChange = () => {
-      setCurrentPage(window.location.hash.slice(1) || "home");
-    }
-
-    window.addEventListener("hashchange", handleHashChange);
-
-    return () => {
-      window.removeEventListener("hashchange", handleHashChange);
-    }
-  }
-  )
+  
 
   return (
     <>
       <div className="page-container container">
-        <div className="content-wrap">
+        <div className="content-wrap" style={{width: "100%"}}>
           {getPage()}
         </div>
       </div>
@@ -39,23 +28,24 @@ function App() {
 }
 
 function getPage() {
-  const currentPage = window.location.hash.slice(1) || "home";
-  switch (currentPage) {
-    case "home":
-      return <HomePage />;
-    case "about":
-      return <AboutPage />;
-    case "projects":
-      return <ProjectsPage />;
-    case "contact":
-      return <ContactPage />;
-    case "coursework":
-      return <CourseWorkPage />;
-    case "resume":
-      return <ResumePage />;
-    default:
-      return <HomePage />;
+  const currentPage = window.location.hash.slice(1) || "home"; 
+
+    switch (currentPage) {
+      case "home":
+        return <HomePage />;
+      case "about":
+        return <AboutPage />;
+      case "projects":
+        return <ProjectsPage />;
+      case "contact":
+        return <ContactPage />;
+      case "coursework":
+        return <CourseWorkPage />;
+      case "resume":
+        return <ResumePage />;
+      default:
+        return <HomePage />;
+    }
   }
-}
 
 export default App;

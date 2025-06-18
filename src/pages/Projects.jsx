@@ -7,7 +7,7 @@ import { useState } from 'react';
 function Projects() {
     const projects = projectsData.projects;
     const [searchValue, setSearchValue] = useState("");
-    const [filteredProjects, setFilteredProjects] = useState(projects);
+    const [filteredProjects, setFilteredProjects] = useState(projects.reverse());
     
 
     function searchProjects(newSearchValue) {
@@ -21,9 +21,10 @@ function Projects() {
     }
 
     return(
-        <div className="projects py-5" id="projects">
+        <div className="projects py-5" style={{width: "100%"}} id="projects">
+            {projects[0].title}
             <div className="container">
-                <h2 className="display-4 fw-bold text-center mb-5">Projects</h2>
+                <h2 className="display-4 fw-bold text-center mb-5"  style={{width: "100%"}}>Projects</h2>
                 <Searchbar 
                 searchValueCallback={searchProjects}/>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
