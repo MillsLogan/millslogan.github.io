@@ -45,7 +45,7 @@
         "description": "An implementation of the popular New York Times game, Connections, using JavaScript.",
         "image": "connections_js.png",
         "githubLink": "https://github.com/MillsLogan/connections_js",
-        "demoLink": "",
+        "demoLink": "https://millslogan.github.io/connections_js",
         "technologies": ["javascript", "bootstrap", "css3", "html5"],
         "tags": ["game development", "web application"],
         "writeup": "#blogs/connections-js"
@@ -55,7 +55,7 @@
         "description": "A JavaScript implementation of the game Lights Out.",
         "image": "lights_out.png",
         "githubLink": "https://github.com/MillsLogan/lights_out",
-        "demoLink": "",
+        "demoLink": "https://millslogan.github.io/lights_out",
         "technologies": ["html5", "javascript", "bootstrap", "css3"],
         "tags": ["game development", "web application"],
         "writeup": "#blogs/lights-out"

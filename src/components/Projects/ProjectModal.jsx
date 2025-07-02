@@ -24,8 +24,10 @@ function ProjectModal({project}) {
                         </div>
                         <div className="d-flex justify-content-between">
                             <a href={project.githubLink} className="btn col btn-secondary m-2" target="_blank" rel="noreferrer">GitHub</a>
-                            <a href={project.demoLink} className="btn col btn-primary m-2" target="_blank" rel="noreferrer">Demo</a>
-                            <a href={project.writeup} className="btn col btn-info m-2" target="_blank" rel="noreferrer">Blog</a>
+                            {project.demoLink !== "" && <a href={project.demoLink} className="btn col btn-primary m-2" target="_blank" rel="noreferrer">Demo</a>}
+                            {
+                                // project.writeup && project.writeup !== "" && <a href={project.writeup} className="btn col btn-info m-2" target="_blank" rel="noreferrer">Blog</a>}
+                            }
                         </div>
                     </div>
                 </div>
